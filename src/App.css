@@ -1,0 +1,176 @@
+.App {
+  text-align: center;
+}
+
+a{
+  text-decoration: none;
+}
+
+.searchBar{
+  width: 300px;
+  align-items: left;
+  background-color: aliceblue;
+  border-radius: 20px;
+
+}
+
+
+.formBox{
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  border: 2px solid #8989c7;
+  padding: 20px;
+  margin: auto;
+  border-radius: 20px;
+}
+
+.css-80r6qc-MuiListItem-root {
+  padding: 6px !important;
+  margin-top: 8px;
+}
+
+.SingleProductPage{
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  
+}
+
+
+
+
+a:hover{
+  color: blue;
+  }
+  
+  
+#StyledHomeLink {
+  display:contents;
+  justify-content: center;
+  text-align: center;
+}
+
+.styleappbar{
+  width:90%;
+  width: calc(100% - 200px) !important;
+  padding:0 100px 0 3px;
+  display:flex;
+  font-style:normal;
+  font-family: fantasy;
+  margin-right: 25px;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.detailInfo{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: 3px dashed rgb(102, 22, 177);
+  padding: 0 20px;
+  margin-left: 10px;
+
+}
+
+.categgory{
+  font-size:30px;
+  font-style:italic;
+  color: rgb(20, 182, 101);
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.ButtonEdit:hover{
+  background-color: #ed3434 !important;
+  transition: 0.5s;
+}
+
+
+.CartI{
+  width: 420px !important;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between
+
+}
+.styleformButton{
+  margin-Top: 32px  !important;
+  padding: 10px 0  !important;
+  border-radius: 20px  !important;
+  border:#61dafb;
+  background-color: blue !important;
+  color: white  !important;
+  font-size: 20px  !important;
+  letter-spacing: 5px  !important;
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1380px) {
+  .SingleProductPage{
+    flex-direction: column;
+    
+  }
+  .detailInfo{
+    margin-top: 20px;
+  }
+  
+}
+@media screen and (max-width: 1380px) {
+  .styleappbar{
+    padding: 10px 0 !important;
+
+  }
+}
+@media screen and (max-width:700px) {
+
+  .categgory{
+    font-size:25px;
+    margin-top: 15px;
+  }
+  .formBox{
+    width: 80% !important;
+  }
+  .css-18isbuf-MuiDrawer-docked{
+    width: 0px;
+  }
+  .MuiDrawer-paper{
+    width: 100px !important;
+  }
+  .styleappbar{
+   
+    width: calc(100% - 100px) !important;
+    
+  }
+  .contnrs{
+    margin-left:100px !important;
+
+  }
+  
+}
+@media screen and (max-width:400px) {
+
+  .styleappbar{
+    width: 100% !important;
+  }
+  .CartI{
+    width: 100% !important;
+
+  }
+ 
+  .MuiDrawer-paper{
+   display: none !important;
+
+  }
+  .contnrs{
+    margin-left: 0px !important;
+  }
+}
